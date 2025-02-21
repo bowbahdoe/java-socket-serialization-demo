@@ -44,7 +44,7 @@ public class Server {
                         }
                     });
                 } catch (Exception e) {
-                    e.printStackTrace(System.out);
+                    e.printStackTrace(System.err);
                 }
             }
         }
